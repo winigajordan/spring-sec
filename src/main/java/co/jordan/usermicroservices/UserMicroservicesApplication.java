@@ -23,18 +23,21 @@ public class UserMicroservicesApplication {
 
 	@PostConstruct
 	void initusers(){
+		/*
 		userService.addRole(new Role(null, "ADMIN"));
 		userService.addRole(new Role(null, "USER"));
 
-		userService.saveUser(new User(null, "admin", "1234", true, null));
-		userService.saveUser(new User(null, "winiga", "1234", true, null));
-		userService.saveUser(new User(null, "jordan", "1234", true, null));
-		userService.saveUser(new User(null, "stephane", "1234", true, null));
+		userService.saveUser(new User(null, "admin", "1234", true, null, null));
+		userService.saveUser(new User(null, "winiga", "1234", true, null, null));
+		userService.saveUser(new User(null, "jordan", "1234", true, null, null));
+		userService.saveUser(new User(null, "stephane", "1234", true, null, null));
 
 		userService.addRoleToUser("admin", "ADMIN");
 		userService.addRoleToUser("admin", "USER");
 		userService.addRoleToUser("winiga", "USER");
 		userService.addRoleToUser("jordan", "USER");
+
+		 */
 
 	}
 
